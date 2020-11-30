@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+
+/*********************************
+* Build Helpers
+*********************************/
+
+/* * {
+  border: 1px solid teal;
+} */
+
+/* img {
+  width: 100px;
+} */
+
+/*********************************
+* General
+*********************************/
+
+body {
+  background-color: snow;
+  color: slategrey;
+  margin: 20px 0;
+  font-family: 'Baloo 2', cursive;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1em;
+}
+h1 {
+  margin-top: 0;
+  font-family: 'Fredoka One', cursive;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+/*********************************
+* Header
+*********************************/
+
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+header div h1 {
+width: 100%;
+text-align: left;
+}
+
+header div:last-child {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*********************************
+* Container
+*********************************/
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+/*********************************
+* Aside/Nav
+*********************************/
+
+aside {
+  flex-basis: 15%;
+  min-width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+/*********************************
+* Main
+*********************************/
+main {
+ width: 85%;
+ flex-basis: 85%;
+}
+
+.top-row img, .middle-row img, .bottom-row img {
+  width: 100%;
+}
+
+.middle-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-row div {
+  width: 49%;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-row div {
+  width: 32%;
+  overflow: hidden;
+}
